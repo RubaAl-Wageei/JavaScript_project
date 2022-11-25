@@ -4,6 +4,7 @@
 /// news ///
 let pNews=document.getElementById(`news1`)
 let pNews1=document.getElementById(`news2`)
+let pNews2=document.getElementById(`news3`)
 
 
 function news(){
@@ -36,6 +37,22 @@ function changeNews2() {
 }
 
 setInterval(changeNews2, 1000); 
+
+function news3(){
+    newsThree=[`Discover more about the second cohort graduation projects. The students did their projects with enthusiasm and passion to learn more, also they submitted their graduation projects and deliver it on time.` , `We would like to thank our colleagues at Orange Jodan for their endless support in delivering many training courses and programs for the second cohort students of the Coding Academy and also we would like to thank our partners from different companies for their contenious support`]
+    
+    for (i=0;i<=newsThree.length;i++){
+        i = Math.floor((Math.random() * 2))
+        return  newsThree[i]
+        
+    }
+    }
+    function changeNews3() {
+    
+        document.getElementById(`news3`).innerHTML = news3();
+    }
+    
+    setInterval(changeNews3, 1000);
 
 
 //--------------------------------------

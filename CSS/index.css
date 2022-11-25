@@ -10,7 +10,8 @@ header {
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.15)),
-    url("../icon/cover.jfif");
+    url("../icon/home.jpg");
+    /* url("../icon/cover.jfif") */
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -25,6 +26,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
+    position: fixed;
 }
 
 /* nav .logo {
@@ -131,13 +133,13 @@ section .btntwo {
 
 @keyframes changetext {
     0% {
-        content: "Welcome";
+        content: "To";
     }
     50% {
-        content: "to";
+        content: "O-trainers";
     }
     100% {
-        content: "O-trainers";
+        content: "Team";
     }
     /* 80% {
     content: "for";

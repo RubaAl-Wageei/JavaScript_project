@@ -1,3 +1,5 @@
+
+
 :root{
 	--darkblue:#ffffff;
 	--lightblue:#89ded0;
@@ -135,35 +137,68 @@ body{
     margin:  auto;
     /* flex-wrap: wrap; */
     /* display: none; */
+    /* background-image:linear-gradient(rgb(0, 0, 0 , 0.4), rgba(0, 0, 0, 0.7)) ,url("../Background.jpg"); */
+    background-image:linear-gradient(rgb(0, 0, 0 , 0.4), rgba(0, 0, 0, 0.7)) ,url("../news-paper-background.jpg");
+    background-size: cover;
+    height: 107vh;
+  
     
 }
 #home1{
     margin:50px 30px 30px 30px;
-    background-color: #00b894;
+    background-color: rgba(0, 184, 148,0.6);
     color: white;
     padding: 50px;
     font-weight: bold;
     font-size: 3em;
     border-radius: 15px;
+    font-family: cursive;
 }
-.coupon {
+/* .coupon {
     border: 5px dotted #bbb;
-    width: 80%;
+    width: 100%;
     border-radius: 15px;
     margin: 0 auto;
     /* max-width: 600px; */
-    margin-top: 30px;
-}
+    /* margin-top: 30px; */
+/* } */ 
 .neeews{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-around
 
 }
-.containerHome {
+
+.card {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 3%;
+    /* padding: 1%; */
+    /* background-color:#D6E2E0; */
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px; 
+    }
+.card h2 {
+    /* margin-top: 10px; */
+    margin: 10px 20px;
+    /* border: 1px solid #00b894; */
+    background-color: rgba(0, 184, 148,0.6);
+    border-radius: 20px;
+    padding: 10px;
+    }
+
+/* .containerHome {
     padding: 2px 16px;
     background-color: #f1f1f1;
     padding: 15px;
-}
+    /* width: 100%; */
+/* } */
+
 /* .home2{
     margin: 30px;
     background-color: #00b894;

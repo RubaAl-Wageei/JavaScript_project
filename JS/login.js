@@ -17,7 +17,7 @@ var Trainers = JSON.parse(localStorage.getItem("Trainers"));
                     sessionStorage.setItem("lomail", JSON.stringify(e.mail));
                     sessionStorage.setItem("lophone", JSON.stringify(e.phone));
                     sessionStorage.setItem("lophoto", JSON.stringify(e.photo));
-                    window.open('./trainer.html')
+                    window.location('./trainer.html')
                     sessionStorage.setItem()
                 }
             })
